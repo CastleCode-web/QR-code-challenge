@@ -5,12 +5,9 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    width: 100%;
-    height: 100%;
 }
 .scan{
-    width: 22vw;
-    height: 62vh;
+    width: 21vw;
     background: hsl(0, 0%, 100%);
     border-radius: 5%;
     margin: 30px;
@@ -21,7 +18,7 @@ body{
     
 }
 img{
-    width: 21vw;
+    width: 20vw;
     height: 38vh;
     margin: 6px;
     padding: 5px;
@@ -29,25 +26,27 @@ img{
     border-radius: 6%;
     background-position: center;
 }
-h3{
+h1{
     margin: 2px;
     padding: 3px;
     text-align: center;
     font-size: 18.5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:  hsl(218, 44%, 22%);
     font-weight: 700;
+    position: relative;
+    bottom: 7px;
     
 }
 .QRcode{
-    position: relative;
-    bottom: 350px;
     text-align: center;
     font-weight: 400;
     font-size: 12.5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: -5px;
-    margin: -9px -4px;
+    padding: 12px;
+    margin: 12px;
+    position: relative;
+    bottom: 22px;
     color: hsl(220, 15%, 55%);
     
 }
